@@ -1,6 +1,6 @@
 Algoritmo "area de triangulo"
-// Descrição   : calcula a área de um triângulo atráves da entrada de dados
-//               do usuário da base e altura.
+// DescriÃ§Ã£o   : calcula a Ã¡rea de um triÃ¢ngulo atrÃ¡ves da entrada de dados
+//               do usuÃ¡rio da base e altura.
 // Autor(a)    : Israel Soares
 // Data atual  : 21/03/2023
 Var
@@ -9,12 +9,11 @@ Var
 
 Inicio
 
-   escreva("digite a base do triângulo: ")
+   escreva("digite a base do triÃ¢ngulo: ")
    leia(base)
-   escreva("")
-   escreva("digite a altura do triângulo: ")
+ 
+   escreva("digite a altura do triÃ¢ngulo: ")
    leia(altura)
-   escreva("")
    
    limpatela
    
@@ -22,6 +21,6 @@ Inicio
    
    escreval("base: ", base)
    escreval("altura: ", altura)
-   escreval("área: ", area)
+   escreval("Ã¡rea: ", area)
 
 Fimalgoritmo
