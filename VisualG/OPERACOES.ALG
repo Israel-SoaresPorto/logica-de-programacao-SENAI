@@ -1,5 +1,5 @@
-Algoritmo "operações"
-// Descrição   : insere dois números e realiza operações matemáticas
+Algoritmo "operaÃ§Ãµes"
+// DescriÃ§Ã£o   : insere dois nÃºmeros e realiza operaÃ§Ãµes matemÃ¡ticas
 //               entre eles.
 // Autor(a)    : Israel Soares
 // Data atual  : 21/03/2023
@@ -10,19 +10,24 @@ Var
 
 Inicio
 
-   escreva("insira um número: ")
+   escreva("insira um nÃºmero: ")
    leia(numero1)
-   escreva("insira outro número: ")
+   
+   escreva("insira outro nÃºmero: ")
    leia(numero2)
+   
+   limpatela
+   
    soma <- numero1 + numero2
    produto <- numero1 * numero2
    subtracao <- numero1 - numero2
    divisao <- numero1 / numero2
-   escreval("primero número: ", numero1)
-   escreval("segundo número: ", numero2)
+   
+   escreval("primero nÃºmero: ", numero1)
+   escreval("segundo nÃºmero: ", numero2)
    escreval("soma: ", soma)
-   escreval("subtração: ", subtracao)
+   escreval("subtraÃ§Ã£o: ", subtracao)
    escreval("produto: ", produto)
-   escreval("divisão: ", divisao)
+   escreval("divisÃ£o: ", divisao)
 
 Fimalgoritmo
