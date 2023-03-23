@@ -1,6 +1,6 @@
 Algoritmo "maior ou menor"
-// Descrição   : lê um valor e exibe uma mensagem caso seja maior de 10;
-//               exibe outra mensagem caso não seja maior que 10.
+// DescriÃ§Ã£o   : lÃª um valor e exibe uma mensagem caso seja maior de 10;
+//               exibe outra mensagem caso nÃ£o seja maior que 10.
 // Autor(a)    : Israel Soares
 // Data atual  : 22/03/2023
 Var
@@ -9,12 +9,12 @@ Var
 
 Inicio
 
-   escreval("digite um número: ")
+   escreval("digite um nÃºmero: ")
    leia(numero)
    
    limpatela
    
-   se(numero > 10) entao
+   se(numero >= 10) entao
        escreval("MAIOR QUE 10!")
    senao
        escreval("MENOR QUE 10!")
