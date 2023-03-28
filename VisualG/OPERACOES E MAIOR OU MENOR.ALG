@@ -1,19 +1,19 @@
-Algoritmo "operações / maior ou menor"
-// Descrição   : insere dois números e realiza a soma, a multiplicação,
-//               a média e verifica qual é o maior e o menor valor entre eles.
+Algoritmo "operaÃ§Ãµes / maior ou menor"
+// DescriÃ§Ã£o   : insere dois nÃºmeros e realiza a soma, a multiplicaÃ§Ã£o,
+//               a mÃ©dia e verifica qual Ã© o maior e o menor valor entre eles.
 // Autor(a)    : Israel Soares
 // Data atual  : 21/03/2023
 Var
 
-   numero1, numero2, soma, produto, maior, menor : inteiro
+   numero1, numero2, soma, produto : inteiro
    media : real
 
 Inicio
 
-   escreva("insira um número: ")
+   escreva("insira um nÃºmero: ")
    leia(numero1)
    
-   escreva("insira outro número: ")
+   escreva("insira outro nÃºmero: ")
    leia(numero2)
    
    limpatela
@@ -22,18 +22,21 @@ Inicio
    produto <- numero1 * numero2
    media <- (numero1 + numero2) / 2
    
-   se (numero1 > numero2) entao
-      maior <- numero1
-      menor <- numero2
-   senao
-        maior <- numero2
-        menor <- numero1
-   fimse
-   
    escreval("soma: ", soma)
    escreval("produto: ", produto)
-   escreval("média: ", media)
-   escreval("maior valor: ", maior)
-   escreval("menor valor: ", menor)
+   escreval("mÃ©dia: ", media)
+   
+   se (numero1 = numero2) entao
+      escreval("os nÃºmeros sÃ£o iguais.")
+   senao
+         se (numero1 > numero2) entao
+            escreval("maior valor: ", numero1)
+            escreval("menor valor: ", numero2)
+         senao
+            escreval("maior valor: ", numero2)
+            escreval("menor valor: ", numero1)
+         fimse
+   fimse
+  
 
 Fimalgoritmo
